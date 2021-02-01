@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" />
+    <script src="Calculadora.js" type="text/javascript"></script>
+    <script src="Display.js" type="text/javascript"></script>
+    <script src="index.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <div data-valor-anterior></div>
+                <div data-valor-actual ></div>
+            </div>
+            <button class="span-2" onclick="display.borrarTodo()">C</button>
+            <button onclick="display.borrar()">&larr;</button>
+            <button data-operador value="dividir">%</button>
+            <button data-numero>7</button>
+            <button data-numero>8</button>
+            <button data-numero>9</button>
+            <button data-operador value="multiplicar">x</button>
+            <button data-numero>4</button>
+            <button data-numero>5</button>
+            <button data-numero>6</button>
+            <button data-operador value="restar">-</button>
+            <button data-numero>1</button>
+            <button data-numero>2</button>
+            <button data-numero>3</button>
+            <button data-operador value="sumar">+</button>
+            <button data-numero class="span-2">0</button>
+            <button data-numero>.</button>
+            <button data-operador value="igual">=</button>
+        </div>
+    </div>
+</body>
+</html>
