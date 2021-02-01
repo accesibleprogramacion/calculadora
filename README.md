@@ -1,8 +1,8 @@
 # Calculadora JS
 
-Calculadora desarrollada en este tutorial:
+**Calculadora desarrollada en este tutorial:**
 
 Tecnologías:
-HTML
-Css
-JavaScript
+- HTML
+- Css
+- JavaScript
