@@ -8,7 +8,7 @@ class Display {
         this.valorAnterior = '';
         this.signos = {
             sumar: '+',
-            dividir: '%',
+            dividir: '/',
             multiplicar: 'x',
             restar: '-', 
         }
@@ -29,7 +29,7 @@ class Display {
     computar(tipo) {
         this.tipoOperacion !== 'igual' && this.calcular();
         this.tipoOperacion = tipo;
-        this.valorAnterior = this.valorActual || this.valorAnterior;
+        this.valorAnterior = this.valorActual.toString() || this.valorAnterior;
         this.valorActual = '';
         this.imprimirValores();
     }
