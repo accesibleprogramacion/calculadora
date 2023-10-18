@@ -70,3 +70,7 @@ button:focus {
 #valor-anterior {
     font-size: 2em;
 }
+
+.enter{
+    display: none;
+}
