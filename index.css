@@ -19,7 +19,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5, 75px);
-    background-color: #00916e;
+    background-color: #c7ce64;
     padding: 15px;
     border-radius: 32px;
     box-shadow: 15px 10px 0px 5px #00000033;
@@ -32,7 +32,7 @@ button {
     border-radius: 32px;
     font-size: 1.5em;
     border: none;
-    background-color: #00916e;
+    background-color: #c5be54;
     box-shadow: 5px 5px 10px -3px #00000040, -5px -5px 15px 3px #00ffc11f;
 }
 
