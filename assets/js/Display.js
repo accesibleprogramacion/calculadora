@@ -1,4 +1,6 @@
-class Display {
+import Calculadora from "./Calculadora.js";
+
+export default class Display {
     constructor(displayValorAnterior, displayValorActual) {
         this.displayValorActual = displayValorActual;
         this.displayValorAnterior = displayValorAnterior;
